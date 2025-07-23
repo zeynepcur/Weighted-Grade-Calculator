@@ -1,20 +1,20 @@
 # Weighted-Grade-Calculator
 A simple weighted grade calculator in C.
-[Up#include <stdio.h>
-
+'''c
+#include <stdio.h>
 int main() {
     int count, i;
     float grades[100], weights[100];
     float total_weight = 0.0f, average = 0.0f;
-
-    printf("How many grades will you enter? ");
+    
+    printf("How many grade will you enter? ");
     scanf("%d", &count);
 
     for (i = 0; i < count; i++) {
-        printf("%d.enter your grades: ", i + 1);
+        printf("%d.enter your grade: ", i + 1);
         scanf("%f", &grades[i]);
 
-        printf("Enter the weight of the %d.grades(example, 0.2): ", i + 1);
+        printf("Enter the weight of the %d.grade(example, 0.2): ", i + 1);
         scanf("%f", &weights[i]);
 
         total_weight += weights[i];
@@ -49,4 +49,4 @@ int main() {
 
     return 0;
 }
-loading Weighted_Grade_Calculator.c…]()
+
