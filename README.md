@@ -1,6 +1,6 @@
 # Weighted-Grade-Calculator
 A simple weighted grade calculator in C.
-'''c
+```c
 #include <stdio.h>
 int main() {
     int count, i;
