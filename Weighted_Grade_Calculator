@@ -1,0 +1,13 @@
+README.md
+# Weighted Grade Calculator - C Project
+
+This is a simple **C program** that calculates a student's weighted average based on multiple grades and their respective weights.
+
+🔧 **Features:**
+- Allows the user to input multiple grades.
+- Each grade can have its own weight (e.g., 40% midterm, 60% final).
+- Automatically checks if the total weight equals 100%.
+- Calculates and displays the final average.
+- Prints letter grade (AA, BA, etc.) based on the average.
+
+📌 **Language:** C  
